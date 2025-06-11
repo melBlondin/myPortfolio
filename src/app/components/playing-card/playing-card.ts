@@ -4,6 +4,7 @@ import { MonsterType, MonsterTypeProperties } from '../../utils/monster.utils';
 
 @Component({
   selector: 'app-playing-card',
+  standalone:true,
   imports: [],
   templateUrl: './playing-card.html',
   styleUrl: './playing-card.css'

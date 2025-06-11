@@ -13,4 +13,7 @@ export class Monster{
     attackStrength:number=60;
     attackDescription: string = "This is a long description of a little monster with kind of electrical power.";
 
+    copy() : Monster {
+        return Object.assign(new Monster(), this);
+    }
 }
